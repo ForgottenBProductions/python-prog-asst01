@@ -1,0 +1,52 @@
+C:\Users\Brandon\PycharmProjects\untitled\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\helpers\pydev\pydevconsole.py" --mode=client --port=55817
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:/Users/Brandon/PycharmProjects/python-prog-asst01'])
+PyDev console: starting.
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+l = []
+1.append('aes dana')
+  File "<input>", line 1
+    1.append('aes dana')
+           ^
+SyntaxError: invalid syntax
+l.append(5)
+l.append('aes dana')
+l.append('test')
+1.append('aes dana')
+  File "<input>", line 1
+    1.append('aes dana')
+           ^
+SyntaxError: invalid syntax
+l.append('aes dana')
+str.capitalize('t')
+'T'
+d
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'd' is not defined
+l
+[5, 'aes dana', 'test', 'aes dana']
+l.clear()
+l.append(5)
+l.append('test')
+l.sort()
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: '<' not supported between instances of 'str' and 'int'
+l.append(self)
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'self' is not defined
+l.append('aes dana')
+d = {}
+d[0] = 'zero'
+d['mana'] = 'Mexican party group'
+d['test'] = 'trial'
+d.get(0)
+'zero'
+d.get('mana')
+'Mexican party group'
+type(d)
+<class 'dict'>
+type('abba')
+<class 'str'>
